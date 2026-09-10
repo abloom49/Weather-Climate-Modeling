@@ -1,6 +1,6 @@
 #  Time-Series and Geospatial Analysis of U.S. Weather Trends (undergraduate project)
 
-This project studies whether basic weather metrics show evidence of climate change over time.
+
 
 ## Research question
 How have daily temperature, precipitation, and tornado occurrence changed over time in the United States?
