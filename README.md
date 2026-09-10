@@ -11,8 +11,7 @@ How have daily temperature, precipitation, and tornado occurrence changed over t
 
 ## Repository Structure
 - `scripts/temperature/` — temperature and precipitation trend analysis
-- `scripts/tornado/` — tornado event modeling and geospatial analysis
-- `scripts/archive/` — older exploratory and duplicate analyses
+- `scripts/tornado/` — tornado panel construction, regression, mapping, and clustering analyses
 - `data/raw/` — raw input datasets
 - `data/cleaned/` — cleaned and merged datasets
 - `outputs/` — figures, tables, and summary outputs
@@ -31,4 +30,6 @@ This repository is organized by analysis topic rather than a single “master”
 ## Files to start with
 - `scripts/temperature/ProjectCode.R`
 - `scripts/tornado/ProjectCodeTornado.R`
+- `scripts/tornado/TornadoCode.R`
+- `scripts/tornado/TornadoCodeClusters.R`
 - `docs/Econ 108 Project Writeup - Google Docs.pdf`
