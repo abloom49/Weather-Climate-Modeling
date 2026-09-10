@@ -6,8 +6,8 @@
 How have daily temperature, precipitation, and tornado occurrence changed over time in the United States?
 
 ## Data
-- Daily weather summaries for major U.S. cities
-- Tornado event records from the NOAA/NCEI Storm Events Database
+- NCEI Daily weather summaries for major U.S. cities
+- Tornado event records from the NCEI Storm Events Database
 
 ## Repository Structure
 - `scripts/temperature/` — temperature and precipitation trend analysis
