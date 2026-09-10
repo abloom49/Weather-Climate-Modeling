@@ -1,4 +1,4 @@
-# Econ 108 Project
+#  Time-Series and Geospatial Analysis of U.S. Weather Trends (undergraduate project)
 
 This project studies whether basic weather metrics show evidence of climate change over time.
 
@@ -9,20 +9,21 @@ How have daily temperature, precipitation, and tornado occurrence changed over t
 - Daily weather summaries for major U.S. cities
 - Tornado event records from the NOAA/NCEI Storm Events Database
 
-## Repository structure
-- `scripts/temperature/` — temperature and precipitation analyses
-- `scripts/tornado/` — tornado-focused analyses
-- `scripts/archive/` — older or exploratory versions kept for reference
-- `data/raw/Weather Data/` — raw source files
-- `data/cleaned/Cleaned Data/` — cleaned and merged datasets
-- `docs/` — project writeup and proposal
-- `outputs/` — figures and summary tables
+## Repository Structure
+- `scripts/temperature/` — temperature and precipitation trend analysis
+- `scripts/tornado/` — tornado event modeling and geospatial analysis
+- `scripts/archive/` — older exploratory and duplicate analyses
+- `data/raw/` — raw input datasets
+- `data/cleaned/` — cleaned and merged datasets
+- `outputs/` — figures, tables, and summary outputs
+- `docs/` — project writeup and supporting documentation
 
 ## Main analyses
-- Regression analysis of temperature and precipitation trends
-- Extreme heat/cold analysis using percentile thresholds
-- Tornado frequency and occurrence models
-- Geographic and clustering visualizations
+- Time-series regression of daily temperature and precipitation levels across major U.S. cities
+- Percentile-based identification of extreme heat and cold days using historical thresholds
+- Geospatial mapping and k-means clustering of state-level tornado risk and weather exposure
+- Time-varying variation and dispersion analysis of daily weather conditions
+- Alternative functional-form testing
 
 ## Notes
 This repository is organized by analysis topic rather than a single “master” script, since different files address different parts of the project.
